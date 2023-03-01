@@ -1,0 +1,14 @@
+data.data[6].name
+data.data[6].data
+data.data[6].status
+data.data[6].venue
+data.data[6].teamInfo[0].img
+data.data[6].teamInfo[1].img
+
+data.data[6].score[0].r
+data.data[6].score[0].w
+data.data[6].score[0].o
+data.data[6].score[0].inning
+
+
+
