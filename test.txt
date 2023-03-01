@@ -12,3 +12,18 @@ data.data[6].score[0].inning
 
 
 
+    document.querySelector('.matchcontent').innerHTML = 
+`
+<div class="flag">
+<img src="${data.data[7].teamInfo[0].img}" alt="">
+<span>V/S</span>
+<img src="${data.data[7].teamInfo[1].img}" alt="">
+</div>
+<h2>${data.data[7].name}</h2>
+<p>${data.data[7].venue}</p>
+<h6>${data.data[7].date}</h6>
+<h1><span>${data.data[7].score[1].r}</span>/<span>${data.data[7].score[1].w}</span></h1>
+<h3>overs : ${data.data[7].score[1].o}</h3>
+<h4>${data.data[7].score[1].inning}</h4>
+<p>${data.data[7].status}</p>
+`);

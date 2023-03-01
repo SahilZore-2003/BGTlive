@@ -15,7 +15,8 @@ fetch("https://api.cricapi.com/v1/currentMatches?apikey=c042a1a7-0240-4058-8ebb-
 <h3>overs : ${data.data[7].score[0].o}</h3>
 <h4>${data.data[7].score[0].inning}</h4>
 <p>${data.data[7].status}</p>
-`);
+`
+);
 
     
 
